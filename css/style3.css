@@ -1,0 +1,56 @@
+body {
+  height: 100%;
+  min-width: 100%;
+  font-family:  "Roboto Condensed", sans-serif;
+  font-size: 14px;
+}
+
+a, p {
+  color: #a2a2a2;
+  text-decoration: none;
+}
+
+li {
+  color: #133f6b;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  list-style: none outside none;
+}
+
+header {
+  background: url(../img/main_menu_li_bg.png) repeat-x left top #133f6b;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.33);
+}
+
+header .nav-link:hover {
+  border-bottom: 2px solid transparent #fff;
+  color: #fff;
+} 
+
+header .navbar-collapse {
+  justify-content: center;
+}
+
+main .row {
+  margin-top: 25px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background: url(../img/reasons.png);
+}
+
+.toggle{
+  display:none;
+}
+
+.line_tab {
+    height: 5px;
+    background-color: #355c83;
+}
+
+footer {
+  background: url(../img/main_menu_li_bg.png) repeat-x left top #133f6b;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.33);
+}

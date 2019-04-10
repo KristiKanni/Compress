@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>
+
+	<meta charset="UTF-8">
+	<link rel=stylesheet href="css/bootstrap.min.css">
+	<link rel=stylesheet type="text/css" href="css/style3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-toggleable">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="navbar-item">
+						<a class="nav-link" href="#"> О компании
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a class="nav-link" href="#"> Каталог
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a class="nav-link" href="#"> Акции
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a class="nav-link" href="#"> Услуги
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a class="nav-link" href="#"> Доставка
+						</a>
+					</li>
+					<li class="navbar-item">
+						<a class="nav-link" href="#"> Контакты
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container box col-md-8 p-2">
+			<div class="oa_top section">
+				<div class="row">
+					<div class="colnav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<ul class="nav">
+							<li class="navbar-item">
+								<a class="nav-link active ml-2" id="v-pills-compress-tab" data-toggle="pill" href="#v-pills-compress" role="tab" aria-controls="v-pills-compress" aria-selected="true"> Компрессоры
+								</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link ml-2" id="v-pills-mks-tab" data-toggle="pill" href="#v-pills-mks" role="tab" aria-controls="v-pills-mks" aria-selected="false"> МКС
+								</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link ml-2" id="v-pills-resiver-tab" data-toggle="pill" href="#v-pills-resiver" role="tab" aria-controls="v-pills-resiver" aria-selected="false"> Ресиверы
+								</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link ml-2" id="v-pills-osushiteli-tab" data-toggle="pill" href="#v-pills-osushiteli" role="tab" aria-controls="v-pills-osushiteli" aria-selected="false"> Осушители
+								</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link ml-2" id="v-pills-filter-tab" data-toggle="pill" href="#v-pills-filter" role="tab" aria-controls="v-pills-filter" aria-selected="false"> Фильтры
+								</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link ml-2" id="v-pills-by_compress-tab" data-toggle="pill" href="#v-pills-by_compress" role="tab" aria-controls="v-pills-by_compress" aria-selected="false"> БУ компрессоры
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="line_tab"></div>
+		</div>
+
+		<div class="container box col-md-8">
+			<div class="tab-content" id="v-pills-tabContent">
+				<div class="tab-pane fade show active" id="v-pills-compress" role="tabpanel" aria-labelledby="v-pills-compress-tab">
+					<div class="manuf_filter">
+	            		<fieldset>
+							<legend>Производитель:</legend>
+							<div class="clear"></div>
+							<form name="fio" id="fio">
+								<div class="checkboxes">
+							        <p><input type="checkbox" name='all' id="all">
+							        <label for="all" id="chooseAll">Выделить всех</label></p>
+								
+								<div class="clear"></div>
+								
+							        <hr>
+							        <p><input type="checkbox" name='f1'> Abac</p>
+							        <p><input type="checkbox" name='f2'> AGRE</p>
+							        <p><input type="checkbox" name='f3'> Airman</p>
+							        <p><input type="checkbox" name='f4'> Alup</p>
+							        <p class="toggle"><input class="toggle" type="checkbox" name='f5'> Atlas Copco</p>
+							        <p class="toggle"><input type="checkbox" name='f6'> Atmos</p>
+							        <p class="toggle"><input type="checkbox" name='f7'> Berg</p>
+							        <p class="toggle"><input type="checkbox" name='f8'> Ceccato</p>
+							        <p class="toggle"><input type="checkbox" name='f9'> Chicago Pneumatic</p>
+							        <p class="toggle"><input type="checkbox" name='f10'> Comaro</p>
+							        <p class="toggle"><input type="checkbox" name='f11'> Comprag</p>
+							        <p class="toggle"><input type="checkbox" name='f12'> DALGAKIRAN</p>
+							        <p class="toggle"><input type="checkbox" name='f13'> Dali</p>
+							        <p class="toggle"><input type="checkbox" name='f14'> Doosan</p>
+							        <p class="toggle"><input type="checkbox" name='f15'> Ekomak</p>
+							        <p class="toggle"><input type="checkbox" name='f16'> Elitech</p>
+							        <p class="toggle"><input type="checkbox" name='f17'> Fiac</p>
+							        <p class="toggle"><input type="checkbox" name='f18'> Fini</p>
+							        <p class="toggle"><input type="checkbox" name='f19'> Fubag</p>
+							        <p class="toggle"><input type="checkbox" name='f20'> Hertz</p>
+							        <p class="toggle"><input type="checkbox" name='f21'> Ingersoll Rand</p>
+							        <p class="toggle"><input type="checkbox" name='f22'> Ingro</p>
+							        <p class="toggle"><input type="checkbox" name='f23'> Kaeser</p>
+							        <p class="toggle"><input type="checkbox" name='f24'> Kraftmann</p>
+							        <p class="toggle"><input type="checkbox" name='f25'> Mark</p>
+							        <p class="toggle"><input type="checkbox" name='f26'> Remeza</p>
+							        <p class="toggle"><input type="checkbox" name='f27'> Spitzenreiter</p>
+							        <p class="toggle"><input type="checkbox" name='f28'> Zammer</p>
+							        <p class="toggle"><input type="checkbox" name='f29'> Бежецкий</p>
+							        <p class="toggle"><input type="checkbox" name='f30'> ЗИФ</p>
+							        <p class="toggle"><input type="checkbox" name='f31'> ПКСД</p>
+							        <div class="service_list">
+										<ul>
+											<li><a rel="nofollow" href="#close" class="button">Все производители</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="clear"></div>
+							</form>
+						</fieldset>
+					</div>
+				</div>
+		
+				<div class="tab-pane fade" id="v-pills-mks" role="tabpane1" aria-labelledby="v-pills-mks-tab">
+					<div class="manuf_filter">
+		            	<div class="tab-pane fade show active" id="v-pills-mks" role="tabpane1" aria-labelledby="v-pills-mks-tab">
+		            		<fieldset>
+								<legend>Про:</legend>
+								<div class="clear"></div>
+								<form name="fio" id="fio">
+									<div class="all_manufacturer">
+								        <p><input type="checkbox" name='all' id="all">
+								        <label for="all" id="chooseAll">Выделить всех</label></p>
+									</div>
+									<div class="clear"></div>
+									<div class="checkboxes">
+								        <hr>
+								        <p><input type="checkbox" name='f1'> Abac</p>
+								        <p><input type="checkbox" name='f2'> AGRE</p>
+								        <p><input type="checkbox" name='f3'> Airman</p>
+								        <p><input type="checkbox" name='f4'> Alup</p>
+								        <p class="toggle"><input class="toggle" type="checkbox" name='f5'> Atlas Copco</p>
+								        <p class="toggle"><input type="checkbox" name='f6'> Atmos</p>
+								        <p class="toggle"><input type="checkbox" name='f7'> Berg</p>
+								        <p class="toggle"><input type="checkbox" name='f8'> Ceccato</p>
+								        <p class="toggle"><input type="checkbox" name='f9'> Chicago Pneumatic</p>
+								        <p class="toggle"><input type="checkbox" name='f10'> Comaro</p>
+								        <p class="toggle"><input type="checkbox" name='f11'> Comprag</p>
+								        <p class="toggle"><input type="checkbox" name='f12'> DALGAKIRAN</p>
+								        <p class="toggle"><input type="checkbox" name='f13'> Dali</p>
+								        <p class="toggle"><input type="checkbox" name='f14'> Doosan</p>
+								        <p class="toggle"><input type="checkbox" name='f15'> Ekomak</p>
+								        <p class="toggle"><input type="checkbox" name='f16'> Elitech</p>
+								        <p class="toggle"><input type="checkbox" name='f17'> Fiac</p>
+								        <p class="toggle"><input type="checkbox" name='f18'> Fini</p>
+								        <p class="toggle"><input type="checkbox" name='f19'> Fubag</p>
+								        <p class="toggle"><input type="checkbox" name='f20'> Hertz</p>
+								        <p class="toggle"><input type="checkbox" name='f21'> Ingersoll Rand</p>
+								        <p class="toggle"><input type="checkbox" name='f22'> Ingro</p>
+								        <p class="toggle"><input type="checkbox" name='f23'> Kaeser</p>
+								        <p class="toggle"><input type="checkbox" name='f24'> Kraftmann</p>
+								        <p class="toggle"><input type="checkbox" name='f25'> Mark</p>
+								        <p class="toggle"><input type="checkbox" name='f26'> Remeza</p>
+								        <p class="toggle"><input type="checkbox" name='f27'> Spitzenreiter</p>
+								        <p class="toggle"><input type="checkbox" name='f28'> Zammer</p>
+								        <p class="toggle"><input type="checkbox" name='f29'> Бежецкий</p>
+								        <p class="toggle"><input type="checkbox" name='f30'> ЗИФ</p>
+								        <p class="toggle"><input type="checkbox" name='f31'> ПКСД</p>
+								        <div class="service_list">
+											<ul>
+												<li><a rel="nofollow" href="#close" class="button">Все производители</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="clear"></div>
+								</form>
+							</fieldset>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-resiver" role="tabpane1" aria-labelledby="v-pills-resiver-tab">
+					<div class="manuf_filter">
+		            	<p>odin</p>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-osushiteli" role="tabpane1" aria-labelledby="v-pills-osushiteli-tab">
+					<div class="manuf_filter">
+		            	<p>dva</p>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-filter" role="tabpane1" aria-labelledby="v-pills-filter-tab">
+					<div class="manuf_filter">
+		            	<p>tri</p>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-by_compress" role="tabpane1" aria-labelledby="v-pills-by_compress-tab">
+					<div class="manuf_filter">
+		            	<p>chetire</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+		<div class="col-md-12 p-4">
+		</div>
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Javascript.js"></script>
+<script src="js/Javascript.js"></script>
+<script src="js/script.js"></script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
